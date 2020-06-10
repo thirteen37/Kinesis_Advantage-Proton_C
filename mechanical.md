@@ -2,7 +2,7 @@
 
 * PCB size: 86x122mm
 * LEDs
-  * 3mm green
+  * 3mm T-1 green
   * 10.15 apart, center 2mm from bottom edge
 * Mounting screw
   * 3.7mm diameter
