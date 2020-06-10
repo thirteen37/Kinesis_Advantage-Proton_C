@@ -31,12 +31,34 @@ You can find details I reverse engineered in:
 * 4x [1.25mm Pitch Easy-On FFC/FPC
     Connector](https://www.molex.com/molex/products/part-detail/ffc_fpc_connectors/0039532135)
 * 4x 3mm T-1 LEDs (see LED chart)
-* 4x axial through-hole resistors (see LED chart)
+* 4x axial through-hole resistors, 1/4W, 1% (see LED chart)
 * 2.54mm "board-to-board" pin headers
   * 2x 12 pins
   * 2x 6 pins
   * 4x 10 pins
 * 2x 2.54mm 8-pin IDC-IDC ribbon cables, 100mm length minimum
+* (Optional) 1x AST1109MLTRQ piezo speaker
+
+#### LEDs
+
+I used blue LEDs in my build for a distinctive appearance. You could
+use other colors or even mix and match colors. You will have to use
+different resistors for each type of LED.
+
+The LEDs are powered from Vusb @ 5V, and the Proton C's pins operate
+at 3.3V and can sink a decent amount of current, allowing for a fairly
+wide selection of LEDs.
+
+The following table is a guideline for some common LED values to
+operate a maximum brightness. You should check your LED datasheet to
+confirm.
+
+| LED color      | LED voltage | LED current | Resistor |
+|----------------|-------------|-------------|----------|
+| Blue (472nm)   | 3.5V        | 20mA        | 75ohms   |
+| Red (640nm)    | 1.8V        | 20mA        | 160ohms  |
+| Yellow (590nm) | 2.0V        | 20mA        | 150ohms  |
+
 
 ### Steps
 
