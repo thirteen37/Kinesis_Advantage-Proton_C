@@ -139,7 +139,6 @@ Columns are left to right, rows are top to bottom.
 | 8   | Bksp, Home      |
 | 9   | X               |
 | 10  | X               |
-| 11  | X               |
 
 ### Bottom right
 
@@ -155,5 +154,4 @@ Columns are left to right, rows are top to bottom.
 | 8   | Ctrl, Enter, Space |
 | 9   | X                  |
 | 10  | X                  |
-| 11  | X                  |
 

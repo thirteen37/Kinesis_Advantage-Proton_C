@@ -79,7 +79,8 @@ The USB cable is connected to a daughter board with the USB
 ports. Separate the connector from the daughter board and remove the
 retaining ring around the strain relief. This will allows you to
 remove the USB cable completely. We will be running the new USB-C
-cable through this hole.
+cable through this hole. The daughter board will remain glued to the
+bottom shell.
 
 There is another cable that connects the daughter board to the main
 controller board. I find it easier to remove the connector at the end
@@ -91,9 +92,9 @@ keyboard.
 You can detach the four flex cables from the main board. There is a
 single retaining screw holding the main board down. Remove
 this. Finally, remove the four screws on each thumb cluster. There is
-a clamp on one of these screws holding the daughter board cable. We
-will be reusing this clamp later. You can now take out the thumb
-cluster boards and the main board.
+a clamp on one of these screws holding the daughter board cable. Keep
+this clamp as we will be reusing it later. You can now take out the
+thumb cluster boards and the main board.
 
 #### Replace ribbon cables
 
@@ -103,12 +104,41 @@ board, we will replace them with pin headers and detachable cables.
 
 It's easiest now to just cut the cables in half and desolder them from
 each of the thumb clusters. Install the pin headers. They should be
-facing the side opposite the key switches (I made the mistake of
+facing the side opposite the key switches. I made the mistake of
 soldering them on the wrong side, necessitating another tedious
-desoldering).
+desoldering.
 
 #### Assemble PCB
 
+I find it easiest to assemble the board in the following order:
+
+1. Resistors
+2. FPC connectors
+3. Pin headers
+4. LEDs
+5. Proton C
+
+Note the orientation of the FPC connectors. There is a notch on the
+short edge closest to Pin 1 and this should correspond to the small
+triangle on the footprint, or the square pad.
+
+We are only installing header pins for the external rows of the Proton
+C. You can ignore the internal pins. Do also solder the pin headers
+for the thumb clusters.
+
+The LEDs are installed on the reverse side of the PCB. Take care with
+their alignment as they fit loosely on the PCB but have tighter
+tolerances when installed into the plastic upper shell. As always,
+orientation matters for diodes and Pin 1 (square pad) is for the
+negative (shorter) leg.
+
+The Proton C is the last component to be soldered. It should be
+installed with the USB port facing away from the PCB and towards you.
+
 #### Re-assemble keyboard
+
+We are only using eight of the ten pins for each thumb cluster. Make
+sure you connect pins 1-8, leaving out pins 9-10 on both the thumb
+cluster and main board.
 
 #### Flash firmware and test
