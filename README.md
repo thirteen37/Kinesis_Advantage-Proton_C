@@ -101,6 +101,8 @@ a clamp on one of these screws holding the daughter board cable. Keep
 this clamp as we will be reusing it later. You can now take out the
 thumb cluster boards and the main board.
 
+![Original board](images/original.jpg)
+
 #### Replace ribbon cables
 
 Unfortunately, the cables connecting the thumb clusters to the main
@@ -112,6 +114,8 @@ each of the thumb clusters. Install the pin headers. They should be
 facing the side opposite the key switches. I made the mistake of
 soldering them on the wrong side, necessitating another tedious
 desoldering.
+
+![Thumb clusters](images/thumbs.jpb)
 
 #### Assemble PCB
 
@@ -137,16 +141,22 @@ tolerances when installed into the plastic upper shell. As always,
 orientation matters for diodes and Pin 1 (square pad) is for the
 negative (shorter) leg.
 
+![Passives installed](images/assembled1.jpg)
+
 The Proton C is the last component to be soldered. It should be
 installed with the USB port facing away from the PCB and towards
 you. If you want to use the optional speaker, solder it to the Proton
 C before installing the Proton C to the main board.
+
+![MCU installed](images/assembled2.jpg)
 
 #### Re-assemble keyboard
 
 We are only using eight of the ten pins for each thumb cluster. Make
 sure you connect pins 1-8 (Pin 1 has the square pad), leaving out pins
 9-10 on both the thumb cluster and main board.
+
+![Board wired up](images/assembled3.jpg)
 
 Don't forget to reinstall the clamp when attaching the screws for the
 thumb clusters.
