@@ -145,8 +145,8 @@ C before installing the Proton C to the main board.
 #### Re-assemble keyboard
 
 We are only using eight of the ten pins for each thumb cluster. Make
-sure you connect pins 1-8, leaving out pins 9-10 on both the thumb
-cluster and main board.
+sure you connect pins 1-8 (Pin 1 has the square pad), leaving out pins
+9-10 on both the thumb cluster and main board.
 
 Don't forget to reinstall the clamp when attaching the screws for the
 thumb clusters.
@@ -160,3 +160,11 @@ will need access to the reset button on the Proton C for the first
 time you flash.
 
 #### Flash firmware and test
+
+The corresponding QMK firmware for this can be found at
+[thirteen37/qmk_firmware](https://github.com/thirteen37/qmk_firmware/tree/kinesis_thirteen37/keyboards/kinesis/thirteen37/README.md).
+
+A compiled version can be found in `firmware/` for you to get started
+quickly. Check the [instructions on the QMK
+site](https://beta.docs.qmk.fm/using-qmk/guides/flashing/flashing#stm32)
+on how to flash the firmware.
