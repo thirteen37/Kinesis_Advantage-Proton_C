@@ -115,7 +115,7 @@ facing the side opposite the key switches. I made the mistake of
 soldering them on the wrong side, necessitating another tedious
 desoldering.
 
-![Thumb clusters](images/thumbs.jpb)
+![Thumb clusters](images/thumbs.jpg)
 
 #### Assemble PCB
 
