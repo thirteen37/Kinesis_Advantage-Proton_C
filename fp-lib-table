@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name MCU_QMK)(type KiCad)(uri ${KIPRJMOD}/libs/proton_c)(options "")(descr ""))
+  (lib (name Molex_FPC)(type KiCad)(uri ${KIPRJMOD}/libs/Molex_FPC.pretty)(options "")(descr ""))
 )

@@ -19,7 +19,7 @@ U 1 1 5EBAED88
 P 2600 4750
 F 0 "J2" H 2492 5535 50  0000 C CNN
 F 1 "Right Main" H 2492 5444 50  0000 C CNN
-F 2 "Connector_FFC-FPC:Molex_FFC-FPC_Easy-On_39-53-2135_13-Contact_Vertical" H 2600 4750 50  0001 C CNN
+F 2 "Molex_FPC:Molex_FFC-FPC_Easy-On_39-53-2135_13-Contact_Vertical" H 2600 4750 50  0001 C CNN
 F 3 "~" H 2600 4750 50  0001 C CNN
 	1    2600 4750
 	-1   0    0    -1  
@@ -172,7 +172,7 @@ U 1 1 5EBA890D
 P 2600 2050
 F 0 "J1" H 2492 2835 50  0000 C CNN
 F 1 "Right Function" H 2492 2744 50  0000 C CNN
-F 2 "Connector_FFC-FPC:Molex_FFC-FPC_Easy-On_39-53-2135_13-Contact_Vertical" H 2600 2050 50  0001 C CNN
+F 2 "Molex_FPC:Molex_FFC-FPC_Easy-On_39-53-2135_13-Contact_Vertical" H 2600 2050 50  0001 C CNN
 F 3 "~" H 2600 2050 50  0001 C CNN
 	1    2600 2050
 	-1   0    0    1   
@@ -397,7 +397,7 @@ U 1 1 5EB9CC24
 P 9000 2050
 F 0 "J6" H 9028 2076 50  0000 L CNN
 F 1 "Left Function" H 9028 1985 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Molex_FFC-FPC_Easy-On_39-53-2135_13-Contact_Vertical" H 9000 2050 50  0001 C CNN
+F 2 "Molex_FPC:Molex_FFC-FPC_Easy-On_39-53-2135_13-Contact_Vertical" H 9000 2050 50  0001 C CNN
 F 3 "~" H 9000 2050 50  0001 C CNN
 	1    9000 2050
 	1    0    0    -1  
@@ -633,7 +633,7 @@ U 1 1 5EBA12D3
 P 9000 4750
 F 0 "J5" H 9028 4776 50  0000 L CNN
 F 1 "Left Main" H 9028 4685 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Molex_FFC-FPC_Easy-On_39-53-2135_13-Contact_Vertical" H 9000 4750 50  0001 C CNN
+F 2 "Molex_FPC:Molex_FFC-FPC_Easy-On_39-53-2135_13-Contact_Vertical" H 9000 4750 50  0001 C CNN
 F 3 "~" H 9000 4750 50  0001 C CNN
 	1    9000 4750
 	1    0    0    1   
