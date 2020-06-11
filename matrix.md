@@ -47,6 +47,8 @@ The thumb clusters and function rows have weird matrices that use far
 more pins than necessary. Fortunately, we are able to pack this down
 to three rows and the same 12 columns used by the main key wells.
 
+![Schematic](images/schematic.png)
+
 What follows are the pinouts for each matrix.
 
 ### Top left

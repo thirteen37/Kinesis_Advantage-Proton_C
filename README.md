@@ -24,6 +24,11 @@ You can find details I reverse engineered in:
 
 ### PCB Fabrication
 
+The fabrication-ready files are in `plots/`. Just send them to your
+preferred fab. It is a pretty standard 1.6mm PCB with conservative via
+and track parameters that just about any shop can handle.
+
+![PCB](images/pcb.png)
 
 ### Components
 
