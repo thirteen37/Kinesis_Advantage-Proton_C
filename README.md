@@ -133,12 +133,25 @@ orientation matters for diodes and Pin 1 (square pad) is for the
 negative (shorter) leg.
 
 The Proton C is the last component to be soldered. It should be
-installed with the USB port facing away from the PCB and towards you.
+installed with the USB port facing away from the PCB and towards
+you. If you want to use the optional speaker, solder it to the Proton
+C before installing the Proton C to the main board.
 
 #### Re-assemble keyboard
 
 We are only using eight of the ten pins for each thumb cluster. Make
 sure you connect pins 1-8, leaving out pins 9-10 on both the thumb
 cluster and main board.
+
+Don't forget to reinstall the clamp when attaching the screws for the
+thumb clusters.
+
+Finally, the USB C cable is plugged in to the Proton C. You will want
+to loop it through the clamp to relieve strain on the Proton C
+itself.
+
+Before closing up the bottom and top shells, flash the firmware. You
+will need access to the reset button on the Proton C for the first
+time you flash.
 
 #### Flash firmware and test
