@@ -6,7 +6,7 @@ The final matrix is implemented as such:
 
 ```
 Col      0    1    2    3    4    5    6    7    8    9    10   11
-Row Pins A13  A14  A15  B0   B1   B2   B3   B4   B5   B6   B7   B8
+Row Pins A15  B0   B1   B2   B3   B4   B5   B10  B11  B12  B13  B14
 0   A0   =    1    2    3    4    5    6    7    8    9    0    -
 1   A1   Tab  Q    W    E    R    T    Y    U    I    O    P    \
 2   A2   CapL A    S    D    F    G    H    J    K    L    ;    '
@@ -19,10 +19,19 @@ Row Pins A13  A14  A15  B0   B1   B2   B3   B4   B5   B6   B7   B8
 
 ## LEDs
 
-* B12: LED 1: Caps Lock
-* B13: LED 2: Num Lock
-* B14: LED 3: Scroll Lock
-* B15: LED 4: Keypad
+Using `PWMD4`
+
+| Pin | PWM Channel | LED # | Function    |
+|-----|-------------|-------|-------------|
+| B6  | Ch1         | LED 1 | Caps Lock   |
+| B7  | Ch2         | LED 2 | Num Lock    |
+| B8  | Ch3         | LED 3 | Scroll Lock |
+| B9  | Ch4         | LED 4 | Keypad      |
+
+## Other pins
+
+* `A13`: `SWDIO`
+* `A14`: `SWCLK`
 
 ## Individual matrices
 
@@ -73,19 +82,19 @@ What follows are the pinouts for each matrix.
 
 | Pin | Keys          |
 |-----|---------------|
-| 1   | Pgm           |
-| 2   | Kpd           |
-| 3   | Kpd, Pgm      |
-| 4   | Pau           |
-| 5   | F9, F12, Pau  |
-| 6   | F9, F10, F11  |
+| 13  | Pgm           |
+| 12  | Kpd           |
+| 11  | Kpd, Pgm      |
+| 10  | Pau           |
+| 9   | F9, F12, Pau  |
+| 8   | F9, F10, F11  |
 | 7   | F11           |
-| 8   | F10           |
-| 9   | F12, PSc, Scr |
-| 10  | Scr           |
-| 11  | PSc           |
-| 12  | X             |
-| 13  | X             |
+| 6   | F10           |
+| 5   | F12, PSc, Scr |
+| 4   | Scr           |
+| 3   | PSc           |
+| 2   | X             |
+| 1   | X             |
 
 ### Middle left
 
@@ -93,39 +102,39 @@ Columns are left to right, rows are top to bottom.
 
 | Pin | Keys  |
 |-----|-------|
-| 1   | Row 4 |
-| 2   | Row 3 |
-| 3   | Row 2 |
-| 4   | GND   |
-| 5   | Row 1 |
-| 6   | Col 0 |
+| 13  | Row 4 |
+| 12  | Row 3 |
+| 11  | Row 2 |
+| 10  | GND   |
+| 9   | Row 1 |
+| 8   | Col 0 |
 | 7   | Col 1 |
-| 8   | Col 2 |
-| 9   | X     |
-| 10  | Col 3 |
-| 11  | Col 4 |
-| 12  | Col 5 |
-| 13  | Row 0 |
+| 6   | Col 2 |
+| 5   | X     |
+| 4   | Col 3 |
+| 3   | Col 4 |
+| 2   | Col 5 |
+| 1   | Row 0 |
 
 ### Middle right
 
 Columns are left to right, rows are top to bottom.
 
-| Pin | Keys  |
-|-----|-------|
-| 1   | Col 0 |
-| 2   | Col 2 |
-| 3   | Col 1 |
-| 4   | Row 4 |
-| 5   | X     |
-| 6   | Col 5 |
-| 7   | Row 3 |
-| 8   | Row 2 |
-| 9   | Row 1 |
-| 10  | Row 0 |
-| 11  | GND   |
-| 12  | Col 3 |
-| 13  | Col 4 |
+| Pin | Keys   |
+|-----|--------|
+| 1   | Col 6  |
+| 2   | Col 8  |
+| 3   | Col 7  |
+| 4   | Row 4  |
+| 5   | X      |
+| 6   | Col 11 |
+| 7   | Row 3  |
+| 8   | Row 2  |
+| 9   | Row 1  |
+| 10  | Row 0  |
+| 11  | GND    |
+| 12  | Col 9  |
+| 13  | Col 10 |
 
 ### Bottom left
 

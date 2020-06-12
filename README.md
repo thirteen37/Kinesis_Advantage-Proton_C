@@ -178,3 +178,15 @@ A compiled version can be found in `firmware/` for you to get started
 quickly. Check the [instructions on the QMK
 site](https://beta.docs.qmk.fm/using-qmk/guides/flashing/flashing#stm32)
 on how to flash the firmware.
+
+# Revisions
+
+## 2020-06
+
+* Initial version
+
+## 2020-07
+
+* Don't use `SWCLK` and `SWDIO` pins unless necessary
+* Move LEDs to TIM4 pins (`PB6` - `PB9`)
+* Routed using Freerouting
