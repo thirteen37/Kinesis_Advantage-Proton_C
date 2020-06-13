@@ -165,6 +165,8 @@ Finally, the USB C cable is plugged in to the Proton C. You will want
 to loop it through the clamp to relieve strain on the Proton C
 itself.
 
+![Cabling](images/cable.jpg)
+
 Before closing up the bottom and top shells, flash the firmware. You
 will need access to the reset button on the Proton C for the first
 time you flash.
